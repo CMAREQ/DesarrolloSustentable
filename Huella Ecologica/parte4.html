@@ -12,7 +12,7 @@
 
 <div class="container">
   <h2>PARTE IV: ENERGIA</h2>
-  <form action="parte1.html">
+  <form action="parte4.php" method="post">
       <div class="form-group">
         <label>1) De los siguientes aparatos electrodomésticos, solo selecciona los aparatos con los que cuentes.</label><br>
         <input type="radio" name="ans1-1"> Plancha</input><br>
@@ -24,23 +24,23 @@
       </div>
       <div class="form-group">
         <label>2) ¿Cuántos focos convencionales hay en tu casa?</label><br>
-        <input type="radio" name="ans2"> 1-3</input><br>
-        <input type="radio" name="ans2"> 4-6</input><br>
-        <input type="radio" name="ans2"> 7-9</input><br>
-        <input type="radio" name="ans2"> 10-12</input><br>
-        <input type="radio" name="ans2"> 13-15</input><br>
+        <input type="radio" name="ans2" checked value = 0> 1-3</input><br>
+        <input type="radio" name="ans2" value = 1> 4-6</input><br>
+        <input type="radio" name="ans2" value = 2> 7-9</input><br>
+        <input type="radio" name="ans2" value = 3> 10-12</input><br>
+        <input type="radio" name="ans2" value = 4> 13-15</input><br>
       </div>
       <div class="form-group">
         <label>3) ¿Cuántos focos ahorradores hay en tu casa?</label><br>
-        <input type="radio" name="ans3"> 1-3</input><br>
-        <input type="radio" name="ans3"> 4-6</input><br>
-        <input type="radio" name="ans3"> 7-9</input><br>
-        <input type="radio" name="ans3"> 10-12</input><br>
-        <input type="radio" name="ans3"> 13-15</input><br>
+        <input type="radio" name="ans3" checked value = 0> 1-3</input><br>
+        <input type="radio" name="ans3" value = 1> 4-6</input><br>
+        <input type="radio" name="ans3" value = 2> 7-9</input><br>
+        <input type="radio" name="ans3" value = 3> 10-12</input><br>
+        <input type="radio" name="ans3" value = 4> 13-15</input><br>
       </div>
       <div class="form-group">
         <label>4) ¿Cuentas con teléfono celular propio? <br>Si tienes más de 1 indica la cantidad de móviles</label><br>
-        <input type="radio" name="ans4"> Si</input>
+        <input type="radio" name="ans4" checked value = 0> Si</input>
         <select>
           <option value="1">1</option>
           <option value="2">2</option>
@@ -52,61 +52,61 @@
           <option value="8">8</option>
           <option value="9">9</option>
         </select> <br>
-        <input type="radio" name="ans4"> No</input><br>
+        <input type="radio" name="ans4" value = 1> No</input><br>
       </div>
       <div>
         <label>5) De los siguientes aparatos electrónicos ¿cuánto tiempo a la semana los mantienes encendidos?</label><br>
         <div class="form-group">
           <label>Televisor</label><br>
-          <input type="radio" name="ansTv"> 7 hrs o menos a la semana</input><br>
-          <input type="radio" name="ansTv"> 8 a 12 hrs a la semana</input><br>
-          <input type="radio" name="ansTv"> 13 a 17 hrs a la semana</input><br>
-          <input type="radio" name="ansTv"> 18 a 22 hrs a la semana</input><br>
-          <input type="radio" name="ansTv"> 23 a 28 hrs a la semana</input><br>
+          <input type="radio" name="ansTv" checked value = 0> 7 hrs o menos a la semana</input><br>
+          <input type="radio" name="ansTv" value = 1> 8 a 12 hrs a la semana</input><br>
+          <input type="radio" name="ansTv" value = 2> 13 a 17 hrs a la semana</input><br>
+          <input type="radio" name="ansTv" value = 3> 18 a 22 hrs a la semana</input><br>
+          <input type="radio" name="ansTv" value = 4> 23 a 28 hrs a la semana</input><br>
           <label>Computadora</label><br>
-          <input type="radio" name="ansPc"> 15 a 20 hrs a la semana</input><br>
-          <input type="radio" name="ansPc"> 21 a 25 hrs a la semana</input><br>
-          <input type="radio" name="ansPc"> 26 a 30 hrs a la semana</input><br>
-          <input type="radio" name="ansPc"> 31 a 35 hrs a la semana</input><br>
-          <input type="radio" name="ansPc"> 36 a 40 hrs a la semana</input><br>
+          <input type="radio" name="ansPc" checked value = 0> 15 a 20 hrs a la semana</input><br>
+          <input type="radio" name="ansPc" value = 1> 21 a 25 hrs a la semana</input><br>
+          <input type="radio" name="ansPc" value = 2> 26 a 30 hrs a la semana</input><br>
+          <input type="radio" name="ansPc" value = 3> 31 a 35 hrs a la semana</input><br>
+          <input type="radio" name="ansPc" value = 4> 36 a 40 hrs a la semana</input><br>
           <label>DVD</label><br>
-          <input type="radio" name="ansDvd"> 2 a 3 hrs a la semana</input><br>
-          <input type="radio" name="ansDvd"> 4 a 6 hrs a la semana</input><br>
-          <input type="radio" name="ansDvd"> 7 a 9 hrs a la semana</input><br>
-          <input type="radio" name="ansDvd"> 10 a 12 hrs a la semana</input><br>
-          <input type="radio" name="ansDvd"> 13 a 15 hrs a la semana</input><br>
+          <input type="radio" name="ansDvd" checked value = 0> 2 a 3 hrs a la semana</input><br>
+          <input type="radio" name="ansDvd" value = 1> 4 a 6 hrs a la semana</input><br>
+          <input type="radio" name="ansDvd" value = 2> 7 a 9 hrs a la semana</input><br>
+          <input type="radio" name="ansDvd" value = 3> 10 a 12 hrs a la semana</input><br>
+          <input type="radio" name="ansDvd" value = 4> 13 a 15 hrs a la semana</input><br>
           <label>Estéreo</label><br>
-          <input type="radio" name="ansEst"> 2 a 3 hrs a la semana</input><br>
-          <input type="radio" name="ansEst"> 4 a 6 hrs a la semana</input><br>
-          <input type="radio" name="ansEst"> 7 a 9 hrs a la semana</input><br>
-          <input type="radio" name="ansEst"> 10 a 12 hrs a la semana</input><br>
-          <input type="radio" name="ansEst"> 13 a 15 hrs a la semana</input><br>
+          <input type="radio" name="ansEst" checked value = 0> 2 a 3 hrs a la semana</input><br>
+          <input type="radio" name="ansEst" value = 1> 4 a 6 hrs a la semana</input><br>
+          <input type="radio" name="ansEst" value = 2> 7 a 9 hrs a la semana</input><br>
+          <input type="radio" name="ansEst" value = 3> 10 a 12 hrs a la semana</input><br>
+          <input type="radio" name="ansEst" value = 4> 13 a 15 hrs a la semana</input><br>
         </div>
       </div>
       <div class="form-group">
         <label>6) Tu calentador o “boiler” utiliza:</label><br>
-        <input type="radio" name="ans6"> Gas LP</input><br>
-        <input type="radio" name="ans6"> Gas natural</input><br>
-        <input type="radio" name="ans6"> Electricidad</input><br>
+        <input type="radio" name="ans6" checked value = 0> Gas LP</input><br>
+        <input type="radio" name="ans6" value = 1> Gas natural</input><br>
+        <input type="radio" name="ans6" value = 2> Electricidad</input><br>
       </div>
       <div class="form-group">
         <label>7) ¿Cuánto tiempo tardo en bañarme?</label><br>
-        <input type="radio" name="ans7"> Más de 20 minutos</input><br>
-        <input type="radio" name="ans7"> Entre 10 y 20 minutos</input><br>
-        <input type="radio" name="ans7"> Entre 5 y 10 minutos</input><br>
-        <input type="radio" name="ans7"> Sólo 5 minutos</input><br>
+        <input type="radio" name="ans7" checked value = 0> Más de 20 minutos</input><br>
+        <input type="radio" name="ans7" value = 1> Entre 10 y 20 minutos</input><br>
+        <input type="radio" name="ans7" value = 2> Entre 5 y 10 minutos</input><br>
+        <input type="radio" name="ans7" value = 3> Sólo 5 minutos</input><br>
       </div>
       <div class="form-group">
         <label>8) Cuando me lavo los dientes…</label><br>
-        <input type="radio" name="ans8"> Dejo correr el agua mientras lo hago</input><br>
-        <input type="radio" name="ans8">  Utilizo un vaso de agua para realizar esta actividad</input><br>
+        <input type="radio" name="ans8" checked value = 0> Dejo correr el agua mientras lo hago</input><br>
+        <input type="radio" name="ans8" value = 1>  Utilizo un vaso de agua para realizar esta actividad</input><br>
       </div>
       <div class="form-group">
         <label>9) ¿Cuántas veces por día vacío el escusado o WC?</label><br>
-        <input type="radio" name="ans9"> 2 a 3 veces por día</input><br>
-        <input type="radio" name="ans9"> 4 a 6 veces por día</input><br>
-        <input type="radio" name="ans9"> 7 a 9 veces por día</input><br>
-        <input type="radio" name="ans9"> 10 a 12 veces por día</input><br>
+        <input type="radio" name="ans9" checked value = 0> 2 a 3 veces por día</input><br>
+        <input type="radio" name="ans9" value = 1> 4 a 6 veces por día</input><br>
+        <input type="radio" name="ans9" value = 2> 7 a 9 veces por día</input><br>
+        <input type="radio" name="ans9" value = 3> 10 a 12 veces por día</input><br>
       </div>
       <button type="submit" class="btn btn-default">Siguiente</button>
     </form>
